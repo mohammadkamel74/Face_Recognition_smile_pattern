@@ -16,8 +16,7 @@ In order to detect smile in video frames, we used CNN based facial expression to
 
 ### 4) Facial Feature Extraction
 
-Dlib library could extract 68 facial landmarks in an image. The landmarks that we are interested in, are the one that describes the shape of the face attributes like: eyes, eyebrows, nose, mouth, and chin (13 in totall). You must download shape_predictor_68_face_landmarks.dat and put it in Code folder to make the code work. You can download this file from [here](https://github.com/italojs/facial-landmarks-recognition)
-
+Dlib library could extract 68 facial landmarks in an image. The landmarks that we are interested in, are the one that describes the shape of the face attributes like: eyes, eyebrows, nose, mouth, and chin (13 in totall).
 <img  align="center" src="img/Capture2.PNG" width="300" height="300">
 <img  align="center" src="img/Capture3.PNG" width="300" height="300">
 
