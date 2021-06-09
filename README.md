@@ -4,7 +4,7 @@ Face recognition is the problem of identifying and verifying people in a photogr
 
 ### 1) Video Stabilization
 
-Since in our methodologies we are using optical flow, we need stable videos. Since most of the face recognition dataset videos are taken in undercontrolled setting, we must use stabilization approaches to remove unwanted noises and movments to have an smooth video. 
+Since in our methodologies we are using optical flow, we need stable videos. Since most of the face recognition datasets are taken in undercontrolled settings, we must use stabilization approaches to remove unwanted noises and movments to have smooth videos. 
 
 ### 2) Face Detection using Har Cascade
 
