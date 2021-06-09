@@ -8,7 +8,7 @@ Since in our methodologies we are using optical flow, we need stable videos. Sin
 
 ### 2) Face Detection using Har Cascade
 
-Haar Cascade is a machine learning object detection algorithm proposed by Paul Viola and Michael Jones. In this project  we used Haar Cascade method to extract the face in the first frame of video. 
+Haar Cascade is a machine learning object detection algorithm proposed by Paul Viola and Michael Jones. In this project  we used Haar Cascade method to extract the face in the first frame of each video. 
 
 ### 3) Smile Detection Using CNN
 
