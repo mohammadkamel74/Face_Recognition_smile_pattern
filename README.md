@@ -21,6 +21,10 @@ Dlib library could extract 68 facial landmarks in an image. The landmarks that w
 <img  align="center" src="img/Capture2.PNG" width="300" height="300">
 <img  align="center" src="img/Capture3.PNG" width="300" height="300">
 
+<p align="center">
+  <img width="460" height="300" src=""img/Capture2.PNG">
+</p>
+
 ### 5) Optical Flow and Landmarks Tracking
 
 In this project, we have selcted 13 landmarks, therefore we will have 13 patterns. Optical flow gives us how the position of a point changes during video
