@@ -31,7 +31,8 @@ After extracting landmarks by Dlib library in the first frames we must record th
 
 ### 7) one vs all classification
 
-
+The result of the previous steps is a CSV file containing coefficients for differnt landmarks and for different people in all videos. The generated csv must be feed into a 
+one vs all classificatier like Support Vector Machine or Naive Bayes.
 
 ## Dataset
 
@@ -46,5 +47,10 @@ You must download shape_predictor_68_face_landmarks.dat from [here](https://gith
 cd Code
 python Learning_Algorithm.py
 ```
+After generating the features.csv run the following part.
+```
+cd Code
+python Learning_Algorithm.py
+```
 
-## Model Accuracu
+## Model Accuracy
