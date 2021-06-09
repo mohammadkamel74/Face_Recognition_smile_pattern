@@ -26,7 +26,7 @@ Dlib library could extract 68 facial landmarks in an image. The landmarks that w
 
 In this project, we have selected 13 landmarks, therefore we will have 13 patterns. Optical flow gives us how the position of a point changes during video
 sequences. So we will have 13 patterns belonging to a person. Combination of these patterns would make a unique smile pattern per person. It worth to mention that
-we must tune the hyperparameters of lulas-kanade algorithms. The optimal value for parameters in this investigations are winSize=(40, 40), maxLevel=5, criteria=(5, 0.001)
+we must tune the hyperparameters of lulas-kanade algorithms. The optimal value for parameters in this investigations are winSize=(40, 40), maxLevel=5 and criteria=(5, 0.001)
 
 <img src="img/Capture4.PNG" width="300" height="300">
 
