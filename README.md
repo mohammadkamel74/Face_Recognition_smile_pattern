@@ -1,4 +1,4 @@
-# Face_Recognition_smile_pattern
+# Face_Recognition_Smile_Pattern
 
 ## Feature Extraction
 
