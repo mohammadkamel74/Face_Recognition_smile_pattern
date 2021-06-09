@@ -35,6 +35,10 @@ After extracting landmarks by Dlib library in the first frames we must record th
 
 ## Dataset
 
+Since there is not any dataset for this task, an attempt is made to make a dataset. The dataset consists of 12 people each has 4 videos. We use three of videos for training and one for testing purposes. A sampel of dataset can be seen Training_Data folder. In case you need the full data you can directly contact me via email.
+
+email: kamel.1911242@studenti.uniroma1.it
+
 ## Test the code
 
 You must download shape_predictor_68_face_landmarks.dat from [here](https://github.com/italojs/facial-landmarks-recognition) and put it in Code folder. 
