@@ -8,11 +8,11 @@ Since in our methodologies we are using optical flow, we need stable videos. Sin
 
 ### 2) Face Detection using Har Cascade
 
-Haar Cascade is a machine learning object detection algorithm proposed by Paul Viola and Michael Jones. In this project  we used Haar Cascade method to extract the face in the first frame of video. In order to detect smile in video frames, we used CNN based facial expression tools.
+Haar Cascade is a machine learning object detection algorithm proposed by Paul Viola and Michael Jones. In this project  we used Haar Cascade method to extract the face in the first frame of video. 
 
 ### 3) Smile Detection Using CNN
 
-Since the video might not include a smile, we need to check whether the person smile or not. Therefore, we have used a pretrained CNN based model to count the number of frames containing smile. We calculate the facial expression for each frame and count the number of frames with happy tags. If the number of happy frames is greater than 0.2 of all frames, we conclude that the person has smile during the video and the smile pattern could be extracted.
+In order to detect smile in video frames, we used CNN based facial expression tools. Since the video might not include a smile, we need to check whether the person smile or not. Therefore, we have used a pretrained CNN based model to count the number of frames containing smile. We calculate the facial expression for each frame and count the number of frames with happy tags. If the number of happy frames is greater than 0.2 of all frames, we conclude that the person has smile during the video and the smile pattern could be extracted.
 
 ### 4) Facial Feature Extraction
 
