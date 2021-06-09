@@ -42,7 +42,7 @@ one vs all classificatier like Support Vector Machine or Naive Bayes.
 
 ## Dataset
 
-Since there is not any dataset for this task, an attempt is made to make a dataset. The dataset consists of 12 people each has 4 videos. We use three of videos for training and one for testing purposes. A sampel of dataset can be seen Training_Data folder. In case you need the full data you can directly contact me via email.
+Since there is not any dataset for this task, an attempt is made to make a dataset. The dataset consists of 12 people each has 4 videos. We use three of videos for training and one for testing purposes. A sampel of dataset can be seen in the Training_Data folder. In case you need the full data you can directly contact me via email.
 
 email: kamel.1911242@studenti.uniroma1.it
 
