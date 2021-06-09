@@ -46,6 +46,14 @@ Since there is not any dataset for this task, an attempt is made to make a datas
 
 email: kamel.1911242@studenti.uniroma1.it
 
+## Installation
+
+#### Install the required Python packages:
+```
+pip install -r requirements.txt
+```
+
+
 ## Test the code
 
 You must download shape_predictor_68_face_landmarks.dat from [here](https://github.com/italojs/facial-landmarks-recognition) and put it in Code folder. 
