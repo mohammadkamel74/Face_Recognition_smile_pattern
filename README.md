@@ -37,8 +37,8 @@ After extracting landmarks by Dlib library in the first frames we must record th
 
 ## Test the code
 
-```
 You must download shape_predictor_68_face_landmarks.dat from [here](https://github.com/italojs/facial-landmarks-recognition) and put it in Code folder. 
+```
 cd Code
 python Learning_Algorithm.py
 ```
