@@ -9,7 +9,7 @@ https://github.com/italojs/facial-landmarks-recognition
 
 ## Test the code
 
-'''
+```
 %cd Code
 !python Learning_Algorithm.py
-'''
+```
