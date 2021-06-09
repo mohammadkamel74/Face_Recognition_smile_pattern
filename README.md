@@ -35,7 +35,7 @@ we must tune the hyperparameters of lulas-kanade algorithms. The optimal value f
 After extracting landmarks by Dlib library in the first frames we must record the movement of this points by using optical flow.Therefore, we will have
 13 set of points which each of them has points equal to the number of frames. Now we have set of points which we want to fit a function on these set of points. In this step we have used Curve fitting to fit a polynomial on our data. The degree of the polonial is five.
 
-### 7) one vs all classification
+### 7) One-vs-all classification
 
 The result of the previous steps is a CSV file containing coefficients for differnt landmarks and for different people in all videos. The generated csv must be feed into a 
 one vs all classificatier like Support Vector Machine or Naive Bayes.
