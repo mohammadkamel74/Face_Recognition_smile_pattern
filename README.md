@@ -37,7 +37,7 @@ After extracting landmarks by Dlib library in the first frames we must record th
 
 ### 7) One-vs-all classification
 
-The result of the previous steps is a CSV file containing coefficients for differnt landmarks and for different people in all videos. The generated csv must be feed into a 
+The result of the previous steps is a CSV file containing coefficients for different landmarks and for different people in all videos. The generated csv must be feed into a 
 one vs all classificatier like Support Vector Machine or Naive Bayes.
 
 ## Dataset
