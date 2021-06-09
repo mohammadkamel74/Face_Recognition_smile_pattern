@@ -47,7 +47,8 @@ You must download shape_predictor_68_face_landmarks.dat from [here](https://gith
 cd Code
 python Learning_Algorithm.py
 ```
-After generating the Train1.csv run the following part for one vs all classification.
+After generating the Train1.csv from the previous step, you must devide the file into train.csv and test.csv. 
+Finally run the following part for one vs all classification.
 ```
 cd Code
 python Learning_Algorithm.py
