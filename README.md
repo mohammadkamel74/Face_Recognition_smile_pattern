@@ -14,13 +14,12 @@ Haar Cascade is a machine learning object detection algorithm proposed by Paul V
 
 Since the video might not include a smile, we need to check whether the person smile or not. Therefore, we have used a pretrained CNN based model to count the number of frames containing smile. We calculate the facial expression for each frame and count the number of frames with happy tags. If the number of happy frames is greater than 0.2 of all frames, we conclude that the person has smile during the video and the smile pattern could be extracted.
 
+### d) Facial Feature Extraction
 
-## Feature Extraction
+Dlib library could extract 68 facial landmarks in an image. The landmarks that we are interested in, are the one that describes the shape of the face attributes like: eyes, eyebrows, nose, mouth, and chin (13 in totall). You must download shape_predictor_68_face_landmarks.dat and put it in Code folder to make the code work. You can download this file from [here](https://github.com/italojs/facial-landmarks-recognition)
 
-shape_predictor_68_face_landmarks.dat. You can download this file 
+## Feature Extraction (Dlib Features)
 
-
-https://github.com/italojs/facial-landmarks-recognition
 
 ## Test the code
 
