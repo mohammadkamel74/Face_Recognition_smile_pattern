@@ -27,6 +27,8 @@ In this project, we have selcted 13 landmarks, therefore we will have 13 pattern
 sequences. So we will have 13 patterns belonging to a person. Combination of these patterns would make a unique smile pattern. It worth to mention that
 we must tune the hyperparameters of lulas-kanade algorithms. The optimal value for parameters in this investigations are winSize=(40, 40), maxLevel=5, criteria=(5, 0.001)
 
+<img src="img/Capture4.PNG" width="300" height="300">
+
 ### 6) Curve Fitting
 
 After extracting landmarks by Dlib library in the first frames we must record the movement of this points by using optical flow.Therefore, we will have
