@@ -6,7 +6,7 @@ Face recognition is the problem of identifying and verifying people in a photogr
 
 Since in our methodologies we are using optical flow, we need stable videos. Since most of the face recognition dataset videos are taken in undercontrolled setting, we must use stabilization approaches to remove unwanted noises and movments to have an smooth video. 
 
-### 1) Face Detection using Har Cascade
+### 2) Face Detection using Har Cascade
 
 Haar Cascade is a machine learning object detection algorithm proposed by Paul Viola and Michael Jones. In this project  we used Haar Cascade method to extract the face in the first frame of video. In order to detect smile in video frames, we used CNN based facial expression tools.
 
