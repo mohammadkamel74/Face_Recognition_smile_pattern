@@ -18,6 +18,9 @@ Since the video might not include a smile, we need to check whether the person s
 
 Dlib library could extract 68 facial landmarks in an image. The landmarks that we are interested in, are the one that describes the shape of the face attributes like: eyes, eyebrows, nose, mouth, and chin (13 in totall). You must download shape_predictor_68_face_landmarks.dat and put it in Code folder to make the code work. You can download this file from [here](https://github.com/italojs/facial-landmarks-recognition)
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 ### 5) Optical Flow and Landmarks Tracking
 
 In this project, we have selcted 13 landmarks, therefore we will have 13 patterns. Optical flow gives us how the position of a point changes during video
