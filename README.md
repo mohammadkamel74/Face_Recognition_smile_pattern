@@ -20,7 +20,14 @@ Dlib library could extract 68 facial landmarks in an image. The landmarks that w
 
 ### e) Optical Flow and Landmarks Tracking
 
+In this project, we have selcted 13 landmarks, therefore we will have 13 patterns. Optical flow gives us how the position of a point changes during video
+sequences. So we will have 13 patterns belonging to a person. Combination of these patterns would make a unique smile pattern. It worth to mention that
+we must tune the hyperparameters of lulas-kanade algorithms. The optimal value for parameters in this investigations are winSize=(40, 40), maxLevel=5, criteria=(5, 0.001)
+
 ### f) Curve Fitting
+
+After extracting landmarks by Dlib library in the first frames we must record the movement of this points by using optical flow.Therefore, we will have
+13 set of points which each of them has points equal to the number of frames. Now we have set of points which we want to fit a function on these set of points. In this step we have used Curve fitting to fit a polynomial on our data. The degree of the polonial is five.
 
 ### g) one vs all classification
 
