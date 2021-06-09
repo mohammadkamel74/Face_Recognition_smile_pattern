@@ -21,9 +21,8 @@ Dlib library could extract 68 facial landmarks in an image. The landmarks that w
 <img  align="center" src="img/Capture2.PNG" width="300" height="300">
 <img  align="center" src="img/Capture3.PNG" width="300" height="300">
 
-<p align="center">
-  <img width="460" height="300" src=""img/Capture2.PNG">
-</p>
+<img align="center" width="100" height="100" src="http://www.fillmurray.com/100/100">
+
 
 ### 5) Optical Flow and Landmarks Tracking
 
